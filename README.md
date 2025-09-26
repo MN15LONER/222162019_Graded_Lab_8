@@ -10,18 +10,18 @@ A simple React Native mobile application designed for a community organization t
 - 📋 View a scrollable list of all tasks
 - ☑️ Mark tasks as completed with a tap
 - ❌ Delete tasks with a button
-- ✨ Visual feedback for completed tasks (e.g. strikethrough or faded text)
+- 👁️ Visual feedback for completed tasks (e.g. strikethrough or faded text)
 - 📱 Mobile-friendly layout using React Native components
 
 ---
 
-## Learning Outcomes
+## What I learned
 
-- Manage component state using `useState`
-- Handle text input and button press events
-- Render dynamic lists with `FlatList`
+- Managing component state using `useState`
+- Handling text input and button press events
+- Rendering dynamic lists with `FlatList`
 - Apply conditional styling based on task status
-- Build responsive layouts with `StyleSheet`
+- Building responsive layouts with `StyleSheet`
 
 ---
 
