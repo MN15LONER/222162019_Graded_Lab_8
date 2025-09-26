@@ -31,22 +31,23 @@ export default function App() {
       return;
     }
 
-    const newTask = {
-      id: Date.now().toString() + Math.random().toString(36).slice(2, 7),
-      text,
-      done: false,
-    };
+  const newTask = {
+  id: Date.now().toString(),
+  text,
+  done: false,
+};
+
 
     setTasks(prev => [newTask, ...prev]);
     setTaskText('');
   };
 
   const toggleTask = id => {
-    setTasks(prev => prev.map(t => (t.id === id ? { ...t, done: !t.done } : t)));
+    setTasks(prev => prev.map(task => (task.id === id ? { ...task, done: !task.done } : task)));
   };
 
   const deleteTask = id => {
-    setTasks(prev => prev.filter(t => t.id !== id));
+    setTasks(prev => prev.filter(t => task.id !== id));
   };
 
   return (
@@ -55,7 +56,7 @@ export default function App() {
         <View style={styles.inputRow}>
           <TextInput
             style={styles.input}
-            placeholder="Enter new task"
+            placeholder="Enter a new task"
             value={taskText}
             onChangeText={setTaskText}
             returnKeyType="done"
