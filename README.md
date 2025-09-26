@@ -37,6 +37,5 @@ A simple React Native mobile application designed for a community organization t
 Screenshots
 
 
-![WhatsApp Image 2025-09-26 at 22 32 24_ed11fc02](https://github.com/user-attachments/assets/c1b90fbd-a1bd-4280-bdc6-1dcfbaee730c)
-
+![WhatsApp Image 2025-09-26 at 23 13 39_02adee66](https://github.com/user-attachments/assets/fa15195a-78ed-4f3e-a8aa-6512363bd31d)
 
